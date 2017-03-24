@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'apps.message',
+
 )
 
 MIDDLEWARE_CLASSES = (
@@ -79,7 +80,7 @@ DATABASES = {
         'NAME': 'djangostart',
         'USER': 'root',
         'PASSWORD': 'mysql',
-        'HOST': '192.168.1.107',
+        'HOST': '192.168.1.108',
         'PORT': '3306',
     }
 }
